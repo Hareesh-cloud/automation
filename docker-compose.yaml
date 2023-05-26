@@ -22,5 +22,5 @@ services:
     command: ["testsmokechrome","--no-sandbox"] 
     network_mode: 'host'
     volumes:
-      - ./cypress/cypress/reports_docker/chrome/videos:/cypressdocker/cypress/videos
-      - ./cypress/cypress/reports_docker/chrome:/cypressdocker/cypress/reports
+      - ./cypress/cypress/reports/chrome/videos:/cypressdocker/cypress/videos
+      - ./cypress/cypress/reports/chrome:/cypressdocker/cypress/reports
